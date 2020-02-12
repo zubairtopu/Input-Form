@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part start */
+header{
+
+background: #53B4FF;
+
+text-align: center;
+}
+nav{
+
+display: inline-block;
+}
+nav ul{
+
+list-style: none;
+height: 80px;
+overflow: hidden;
+display: inline-flex
+}
+nav ul li{
+    float: left;
+    margin: 15px;
+    margin-top: 3px;
+    padding-top: 15px;
+}
+nav ul li a{
+
+text-decoration: none;
+text-transform: uppercase;
+float: left;
+padding: 5px;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #008BFF;
+}
+nav ul li img{
+
+width: 100px;
+
+}
+/* header part end */
+/* content part start */
+.content{
+height: 900px;
+}
+.image{
+    width: 40%;
+    float: left;
+    background: #53B4FF;
+    height: 100%;
+}
+.image img{
+    width: 90%;
+    padding: 40px;
+}
+/* form part start */
+.form{
+    width: 60%;
+    float: right;
+    background: #008BFF;
+    height: 100%;
+    position: relative;
+}
+.contact_form{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact_form h4{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.contact_form p{
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.contact_form h5{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.contact_form input{
+
+width: 80%;
+
+height: 35px;
+
+margin-bottom: 10px;
+}
+.button{
+    width: 150px;
+  border: none;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.bt{
+    float: left;
+    font: icon;
+}
+/* form part end */
+/* content part end */
+
+/* social media start */
+.social_media{
+    height: 100px;
+}
+.social_site{
+    height: 100px; 
+    margin-top: 30px;   
+}
+
+.social_site ul li{
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+    
+}
+.social_site ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* social media end */
